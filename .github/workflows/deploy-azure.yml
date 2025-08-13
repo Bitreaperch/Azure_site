@@ -18,10 +18,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check repo structure
-        run: dir /s /b
-        shell: cmd
-
       - name: Set up Node.js version
         uses: actions/setup-node@v3
         with:
